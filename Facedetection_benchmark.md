@@ -18,7 +18,7 @@ $F1 = 2*\frac{precision*recall}{precision+recall}$
 </br></br></br>
 ### **1.2 mAP (mean Average Precision)**
 
-$mAP = \frac{1}{n}\sum_{c \in classes}{Precision(c)}$ = $\frac{1}{n}\sum_{c \in classes}{\int_0^1Precision(c, k)dk}$
+$mAP = \frac{1}{n}\sum_{c \in classes}{Precision(c)}$ ~ $\frac{1}{n}\sum_{c \in classes}{\int_0^1Precision(c, k)dk}$
 
 k: threshold</br>
 n: number of classes
